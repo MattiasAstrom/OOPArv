@@ -1,4 +1,5 @@
-﻿namespace OOPArv
+﻿//Author: Mattias Åström NET24
+namespace OOPArv
 {
 
     internal class Program
