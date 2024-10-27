@@ -49,6 +49,8 @@ namespace OOPArv
         {
             _hungry = false;
             _sleepy = false;
+            _hasAnOwner = false;
+            _age = 0;
             _name = "animal name not set";
         }
 
@@ -133,6 +135,8 @@ namespace OOPArv
             destroyLivingRoom = false;
         }
 
+        //simply call the base class method with the msg since all animals make sound, could be expanded instead if you wanted a specfic
+        //behaviour for a child class.
         public new void MakeSound(string msg) => base.MakeSound(msg);
 
         public void DestroyTheLivingRoom()
